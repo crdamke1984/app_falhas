@@ -1,6 +1,6 @@
 import pandas as pd
 
-def encontrar_intervalos_falhas(df: pd.DataFrame, sensor_col: str, timestamp_col: str, limiar_tempo: int) -> list:
+def encontrar_intervalos_falhas(df: pd.DataFrame, timestamp_col: str, limiar_tempo: int) -> list:
     """
     Encontra intervalos de falhas nos dados do sensor.
 
