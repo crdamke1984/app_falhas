@@ -20,7 +20,9 @@ O aplicativo utiliza-se do método da Máxima Verossimilhança para obter os par
 
 Em termos matemáticos, temos que a FDP Gama, nos parâmetros $\alpha$ (forma) e $\beta$ (escala), é definida como: 
 $$ 
+\begin{equation}
 f(x, \alpha, \beta) = \frac{\beta^{\alpha}x^{\alpha -1}e^{\beta x}}{\Gamma(\alpha)} 
+\end{equation}
 $$
 onde $\Gamma(\alpha)$ é a função Gama completa dada por: 
 $$
