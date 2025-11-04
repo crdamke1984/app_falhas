@@ -19,7 +19,9 @@ Em desenvolvimento
 O aplicativo utiliza-se do método da Máxima Verossimilhança para obter os parâmetros da Função de Densidade de Probabilidade (FDP) Gama. Com esses parâmetros torna-se possível modelar a FDP Gama e, consequentemente, calcular as probabilidades de falhas dado um cenário de tempo. 
 
 Em termos matemáticos, temos que a FDP Gama, nos parâmetros $\alpha$ (forma) e $\beta$ (escala), é definida como: 
-$$ f(x, \alpha, \beta) = \frac{\beta^{\alpha}x^{\alpha -1}e^{\beta x}}{\Gamma(\alpha)} $$
+$$ 
+f(x, \alpha, \beta) = \frac{\beta^{\alpha}x^{\alpha -1}e^{\beta x}}{\Gamma(\alpha)} 
+$$
 onde $\Gamma(\alpha)$ é a função Gama completa dada por: 
 $$
 \begin{equation}
